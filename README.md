@@ -3,6 +3,9 @@
 
 文章讲解如下：[Android 多点触控与图片缩放](https://blog.csdn.net/u011418943/article/details/97174400)
 
+# 演示效果
+![image](https://github.com/LillteZheng/ScaleImageview/raw/master/gif/scale.gif)
+
 # 使用
 ```
 allprojects {
@@ -18,8 +21,21 @@ allprojects {
 compile 'com.github.LillteZheng:ScaleImageview:v1.0'
 ```
 
-# 演示效果
-![image](https://github.com/LillteZheng/ScaleImageview/raw/master/gif/scale.gif)
+然后添加控件即可：
+```
+<com.zhengsr.mylibrary.ScaleImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    app:scale_limit_board="false"
+    app:scale_max_factor="5"
+    app:scale_auto_time="5"
+    app:scale_double_factor="2"
+    android:src="@mipmap/a1"/>
+
+```
+
+
 
 # 自定义属性
 **缩放控件 ScaleImageView**
