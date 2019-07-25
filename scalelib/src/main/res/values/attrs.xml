@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaleImageView">
+        <attr name="scale_auto_time" format="reference|integer"/>
+        <attr name="scale_limit_board" format="boolean"/>
+        <attr name="scale_autofit" format="boolean"/>
+        <attr name="scale_double_factor" format="integer"/>
+        <attr name="scale_max_factor" format="integer"/>
+        <attr name="scale_interrupt_parent_touch" format="boolean"/>
+    </declare-styleable>
+</resources>
