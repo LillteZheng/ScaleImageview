@@ -18,7 +18,7 @@ allprojects {
 然后在你的 module 中添加：
 
 ```
-compile 'com.github.LillteZheng:ScaleImageview:v1.0'
+ implementation 'com.github.LillteZheng:ScaleImageview:1.0'
 ```
 
 然后添加控件即可：
